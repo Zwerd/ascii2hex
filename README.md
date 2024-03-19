@@ -7,8 +7,10 @@ You can select the format by using -p flag and specefie the pattern.
 
 # example
 └─$ python3 ./ascii2hex.py -s '<? phpinfo() ?>'
+
 %3c%3f%20%70%68%70%69%6e%66%6f%28%29%20%3f%3e
-                                                                                                            
+
 └─$ python3 ./ascii2hex.py -s '<? phpinfo() ?>' -p \\x
+
 \x3c\x3f\x20\x70\x68\x70\x69\x6e\x66\x6f\x28\x29\x20\x3f\x3e
                                         
