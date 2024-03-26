@@ -13,4 +13,7 @@ You can select the format by using -p flag and specefie the pattern.
 └─$ python3 ./ascii2hex.py -s '<? phpinfo() ?>' -p \\x
 
 \x3c\x3f\x20\x70\x68\x70\x69\x6e\x66\x6f\x28\x29\x20\x3f\x3e
+
+# tool note
+this is part from my oacp tools
                                         
