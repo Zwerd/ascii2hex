@@ -3,7 +3,7 @@ Simple python code for convert ASCII string to HEX string
 
 # how to run
 That python code allow to convert ASCII string to hex in 2 type format, "%" or "\x", or other ones you need.
-You can select the format by using -p flag and specefie the pattern.
+You can select the format by using -p flag and specefie the pattern, the default it "%".
 
 # example
 ```
